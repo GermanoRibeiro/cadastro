@@ -1,0 +1,52 @@
+:root {
+    --color-background: #F0F0F5;
+    --color-text-base: #6A6180;
+    --color-text-purple-light: #7D96E0;
+    --color-text-purple-dark: #322153;
+    --color-text-green: #34CB79;
+    --color-text-gray: #6C6C80;
+    font-size: 60%;
+  }
+  
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+  }
+  
+  hmtl,
+  body,
+  #root {
+    height: 100vh;
+  }
+  
+  body {
+    background: var(--color-background);
+    padding: 0 10%;
+  }
+  
+  #root {
+    display: flex;
+
+  }
+  
+  body,
+  input,
+  button,
+  textarea {
+    font: 500 1.6rem Poppins;
+    color: var(--color-text-base);
+  }
+  
+  .container {
+    width: 90vw;
+    max-width: 700px;
+  }
+  
+  @media (min-width: 700px) {
+    :root {
+      font-size: 62.5%;
+    }
+  }
+  

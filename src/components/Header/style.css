@@ -1,0 +1,21 @@
+div.logo{
+    margin-top: 3rem;
+}
+
+span.logo-text {
+  font-size: 2.2rem;
+  font-weight: 600;
+  font-family: roboto;
+}
+
+span.green {
+    color: var(--color-text-green);
+}
+
+span.purple-light {
+    color: var(--color-text-purple-light);
+}
+
+span.purple-dark {
+    color: var(--color-text-purple-dark);
+}
